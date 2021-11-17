@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+.row-header {
+  background-color: #313233;
+}
+h2 {
+  margin-top: 4.5%;
+}
+footer {
+  background-color: #313233;
+  height: 100px;
+}

@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+  display:flex;
+  flex-wrap: wrap; 
+}
+.row-header {
+  background-color: #313233;
+}
+.row-header .nav-1 {
+  color: white;
+}
+.row-header .nav-2 {
+  color: gray;
+}
+.card{
+ width: 100% ;
+ height:500px;
+ margin-top:15% ;
+ margin-left:0% ;
+ display: inline-block  ;
+}
+.button-card{
+ background-color: #313233;
+ width:40% ;
+ border: none;
+ margin-top:5% ;
+ height:40px ;
+
+}
+.button-card:hover{
+  background-color: #292a2b;
+  width:40% ;
+  border: none;
+  margin-top:5% ;
+  height:40px ;
+}
+h3{
+  margin-top:15% ;
+}
+.btn-group1{
+  background-color:#313233;
+  border:none ;
+  width:25% ;
+}
+.btn-group1:hover{
+  background-color: #292a2b;
+  border: none;
+}
+.btn-group2{
+  background-color:#313233;
+  border:none ;
+  width:20% ;
+}
+.btn-group2:hover{
+  background-color: #292a2b;
+  border: none;
+}
+.btn-group3{
+  background-color:#313233;
+  border:none ;
+  width:15% ;
+}
+.btn-group3:hover{
+  background-color: #292a2b;
+  border: none;
+}
+.btn-group4{
+  background-color:#313233;
+  border:none ;
+  width:20% ;
+}
+.btn-group4:hover{
+  background-color: #292a2b;
+  border: none;
+}
+.btn-group5{
+  background-color:#313233;
+  border:none ;
+  width:17.5% ;
+}
+.btn-group5:hover{
+  background-color: #292a2b;
+  border: none;
+}
+.btn-go{
+  background-color:#313233;
+  border:none ;
+  width:20% ;
+  color: white;
+  border-radius:5px;
+  margin-top:5%;
+  height:40px;   
+}
+.btn-go:hover{
+ background-color: #292a2b;
+ border: none;
+ border-radius:5px;  
+}
+footer {
+  background-color: #313233;
+  height: 100px;
+}
+@media (min-width:768px) and (max-width:990px){
+  h3{
+    display: block;
+    margin-top:-240%;
+  }
+  .btn-group1{
+    background-color:#313233;
+    border:none ;
+    width:35% ;
+    margin-bottom:1%; 
+  }
+  .btn-group1:hover{
+    background-color: #292a2b;
+    border: none;
+  }
+  .btn-group2{
+    background-color:#313233;
+    border:none ;
+    width:30% ;
+  }
+  .btn-group2:hover{
+    background-color: #292a2b;
+    border: none;
+  }
+  .btn-group3{
+    background-color:#313233;
+    border:none ;
+    width:25% ;
+    margin-top:-1%; 
+  }
+  .btn-group3:hover{
+    background-color: #292a2b;
+    border: none;
+  }
+  .btn-group4{
+    background-color:#313233;
+    border:none ;
+    width:30% ;
+  }
+  .btn-group4:hover{
+    background-color: #292a2b;
+    border: none;
+  }
+  .btn-group5{
+    background-color:#313233;
+    border:none ;
+    width:30% ;
+    margin-top:1%; 
+  }
+  .btn-group5:hover{
+    background-color: #292a2b;
+    border: none;
+  }
+  .card{
+    margin-top:5%; 
+  }
+}
+
+@media (min-width:991px) and (max-width:1199px){
+  .card{
+    height:505px; 
+  }
+  .button-card{
+    width:50%; 
+  }
+}
+@media (max-width:767px){
+  .card{
+    margin-top:0%;
+    width:100%;
+    margin-bottom:5%;     
+  }
+  h3{
+    margin-top:0%;   
+  }
+}
+
+
